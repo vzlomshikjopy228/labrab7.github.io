@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>CatClicker</title>
+</head>
+<body>
+    <audio class="cat-sound-1" preload="auto">
+        <source src="sounds/purchaseaccesed.wav" type="audio/mpeg">
+    </audio>
+    <audio class="cat-sound-2" preload="auto">
+        <source src="sounds/purchasedenied.wav" type="audio/mpeg">
+    </audio>
+    <div class="menu menu--positioned">
+        <div class="menu__block">
+            <button class="button"><img src="img/cat-surprise-box.png" alt="cat-surprise-box" class="menu__cat-image menu__cat-image--1"></button>
+            <p class="menu__cat-cost menu__cat-cost--1">
+                1000
+            </p>
+        </div>
+        <div class="menu__block">
+            <button class="button"><img src="img/cat-mermaid.png" alt="cat-mermaid" class="menu__cat-image menu__cat-image--2"></button>
+            <p class="menu__cat-cost menu__cat-cost--2">
+                2000
+            </p>
+        </div>
+        <div class="menu__block">
+            <button class="button"><img src="img/cat-unicorn.png" alt="cat-unicorn" class="menu__cat-image menu__cat-image--3"></button>
+            <p class="menu__cat-cost menu__cat-cost--3">
+                3000
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cat cat--positioned">
+            <button class="cat__click-button">
+                <img src="img/default-cat-image.png" alt="cat" class="cat_image">
+            </button>
+        </div>
+        <div class="score score--positioned">
+            <p class="score__number">
+                0
+            </p>
+            <p class="score__text">
+                Очки
+            </p>
+        </div>
+    </div>
+    <div class="game-name">
+        <p class="game-name__title">
+            Cat <br>Clicker</br>
+        </p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
